@@ -43,6 +43,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
+      name:'Leetcode',
+      url:'https://leetcode.cn/',
+      external:true,
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
@@ -51,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/yagami_light.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Light Yagami',
   bio: '',
   links: [
@@ -63,14 +68,14 @@ export const profileConfig: ProfileConfig = {
       url: 'https://twitter.com',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
-    {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/saicaca/fuwari',
+    },
+    {
+      name: 'Steam',
+      icon: 'fa6-brands:steam',
+      url: 'https://store.steampowered.com',
     },
   ],
 }
